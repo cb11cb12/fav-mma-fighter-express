@@ -18,7 +18,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Current Rappers</h1>
+    <h1>Favorite Figthers</h1>
     <ul class="rappers">
     <% for(let i=0; i < info.length; i++) {%>
         <li class="rapper">
@@ -31,11 +31,11 @@
     <% } %>
     </ul>
 
-    <h2>Add A Rapper:</h2>
+    <h2>Add Your Fighter:</h2>
 
     <form action="/addRapper" method="POST">
-        <input type="text" placeholder="Stage Name" name="stageName">
-        <input type="text" placeholder="Birth Name" name="birthName">
+        <input type="text" placeholder="Name" name="stageName">
+        <input type="text" placeholder="Why do you like them?" name="birthName">
         <input type="submit">
     </form>
     
